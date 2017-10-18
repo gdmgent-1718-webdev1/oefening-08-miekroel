@@ -20,8 +20,8 @@
     <?php
     for($i = 0;  $i < 50; ++$i ){
         $color = $i*5;
-       // $color = "rgba(${colorMath},${colorMath},${colorMath},1)";
-        echo `<div class="grijs" style="background-color: 'rgba(${color}, ${color}, ${color},1)'"></div>`;
+       //TODO kleur laten werken. DIV's worden aangemaakt maar krijgen geen kleur toegekend
+        echo "<div class='grijs' style='background-color: rgba($color, $color, $color,1)'></div>";
     }
 
 
